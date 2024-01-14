@@ -12,7 +12,7 @@
 int main(void)
 {
 	int x1, x2, x3, x4, x5, max;
-	printf("Enter five nimbers");
+	printf("Enter five numbers");
 	scanf("%d%d%d%d%d", &x1, &x2, &x3, &x4, &x5);
 	if (x1 > x2)
 		max = x1;

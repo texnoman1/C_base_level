@@ -15,10 +15,10 @@
 #include <stdio.h>
 int main(void)
 {
-int x, y, z, sum;
-printf("enter three numbers separated by a space :");
-scanf("%d%d%d", &x, &y, &z);
-sum = x + y + z;
-printf(" %d + %d + %d = %d", x, y, z, sum);
-return 0;
+    int x, y, z, sum;
+    printf("enter three numbers separated by a space :");
+    scanf("%d%d%d", &x, &y, &z);
+    sum = x + y + z;
+    printf(" %d + %d + %d = %d", x, y, z, sum);
+    return 0;
 }

@@ -17,6 +17,7 @@ int main(void)
 {
 int a, b, c;
 float average;
+
 scanf("%d%d%d", &a, &b, &c); //без пробелов
 average = a + b + c;
 average /= 3.;//точка обязательна - это вещественный или (double) 

@@ -18,7 +18,7 @@ int month;
 	printf("Enter  the number of the year ");
 	scanf("%d", &month);
 	if (month == 1 || month == 2 || month == 12)
-		{printf("winter") ;  // если не ставить {} не компилируется
+		{printf("winter") ;                     // если не ставить {} не компилируется
 		return 0;}		 		
 	if (month == 3  || month == 4 || month == 5)
 		{printf("spring") ;  
