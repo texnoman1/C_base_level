@@ -27,7 +27,7 @@ int count = 0;
 		count = count + temp;	
 		x = x / 10;	
 	}
-	printf("%d \n", count);
+	printf("%d n", count);
 	if (count == 10)
 		printf("Yes");
 	else
