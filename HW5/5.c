@@ -13,24 +13,24 @@
 Данные на выходе: NO 
  */
 
-#include <stdio.h> // упрощенная проверка, вариант )( пройдет
+#include <stdio.h> // упрощенная проверка, вариант )( не пройдет
 int main()
 {
 	char c;
 	int a = 0;
 	int b = b;
 
-	while ((c = getchar()) != '.')
+	while( (c = getchar()) != '.')
 	{
-		if (c == ')')
+		if(c == ')')
 			a += 1;
 		else
-			b += 1;
-		// putchar(c);
+			b +=1;	
+//putchar(c);
 	}
 	if (a == b)
 		printf("YES");
 	else
-		printf("NO");
-	return 0;
+		printf("NO");	
+return 0;
 }
